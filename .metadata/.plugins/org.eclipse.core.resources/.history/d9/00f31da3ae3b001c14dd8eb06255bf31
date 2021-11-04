@@ -1,0 +1,12 @@
+package service;
+import static db.JdbcUtil.*;
+
+import vo.BoardVO;
+public class BoardContentService {
+
+	public BoardVO getArticle(int num) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

@@ -1,0 +1,13 @@
+package vo;
+
+public class DogVO {
+	private int dogId;
+	private String dogKind;
+	private int dogPrice;
+	private String dogImage;
+	private String dogCountry;
+	private int dogHeight;
+	private int dogWeight;
+	private String dogContent;
+	private int dogReadCount;
+}

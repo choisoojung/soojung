@@ -1,0 +1,41 @@
+1635148334023	Rename resource 'getContentPath.jsp'
+1635148367401	Copy file
+1635149325140	Move 'butter.jpg' to 'images'
+1635149326736	Move 'p.png' to 'images'
+1635149328283	Move 'h.jpg' to 'images'
+1635149330145	Move 'ygx.jpg' to 'images'
+1635149331910	Move 'lee.png' to 'images'
+1635149353987	Move 'fighterChoice.html' to 'webapp'
+1635207181639	Delete element
+1635207899747	Move 'errorCreate.jsp' to 'webapp'
+1635208554328	Copy file
+1635208561581	Move 'viewErrorMessage.jsp' to 'error'
+1635208570241	Copy file
+1635208644383	Copy file
+1635209083034	Move 'web.xml' to 'webapp'
+1635209198953	Move 'web.xml' to 'lib'
+1635209239870	Move 'web.xml' to 'WEB-INF'
+1635209568993	Copy file
+1635210045234	Move 'bgColor.html' to 'webapp'
+1635210057413	Move 'fiterChoiceForm.jsp' to 'webapp'
+1635210064527	Delete element
+1635210069793	Delete element
+1635210073459	Delete element
+1635210077322	Delete element
+1635210080690	Move 'hangul.html' to 'webapp'
+1635210086018	Delete element
+1635210091850	Delete element
+1635210146905	Delete element
+1635210163949	Delete element
+1635210185777	Move 'errorCreate.jsp' to 'main'
+1635210911407	Move 'errorCreate.jsp' to 'webapp'
+1635211071526	Copy file
+1635211105128	Copy file
+1635211123902	Copy file
+1635299478892	Rename resource 'cookieLogin'
+1635299512967	Rename resource 'cookieLoginForm'
+1635308235337	Copy files
+1635308252841	Rename resource 'cookieLoginForm.jsp'
+1635308262741	Rename resource 'cookieLogout.jsp'
+1635308266212	Rename resource 'cookieLoginCheck.jsp'
+1635308270257	Rename resource 'cookieLogin.jsp'

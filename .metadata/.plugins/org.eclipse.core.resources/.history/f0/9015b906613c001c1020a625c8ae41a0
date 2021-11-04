@@ -1,0 +1,29 @@
+package service;
+import static db.JdbcUtil.*;
+
+import java.sql.Connection;
+
+import dao.BoardDAO;
+import vo.BoardVO;
+public class BoardDeleteProService {
+
+	public boolean modifyArticle(BoardVO boardVO) throws Exception {
+		// TODO Auto-generated method stub
+		
+		boolean modifySuccess = false;
+		Connection con = getConnection();
+		BoardDAO boardDAO = BoardDAO.getInstance();
+		boardDAO.setConnection(con);
+		
+		int deleteCount = boardDAO.deleteArticle(boardVO);
+		if(deleteCount > 0) {
+			commit(con);
+			modifySuccess = true;
+		}
+		else {
+			rollback(con);
+		}
+		return modifySuccess;
+	}
+
+}

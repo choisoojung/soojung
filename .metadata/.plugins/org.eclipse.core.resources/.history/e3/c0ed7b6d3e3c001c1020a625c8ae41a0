@@ -1,0 +1,31 @@
+package action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import service.BoardWriteProService;
+import vo.ActionForward;
+import vo.BoardVO;
+import vo.ReplyVO;
+
+public class BoardUpdateFormService implements Action {
+
+   @Override
+   public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
+      // TODO Auto-generated method stub
+      int num = Integer.parseInt(request.getParameter("num"));
+      String pageNum = request.getParameter("pageNum");
+      BoardUpdateFormService boardUpdateFormService = new BoardUpdateFormService();
+      
+      BoardVO boardVO = new BoardVO();
+      boardVO.setNum(num);
+
+      
+      request.setAttribute("boardVO", boardVO);
+      ActionForward forward = new ActionForward();
+      forward.setUrl("board/updateForm.jsp");
+      
+      return forward; 
+   }
+
+}

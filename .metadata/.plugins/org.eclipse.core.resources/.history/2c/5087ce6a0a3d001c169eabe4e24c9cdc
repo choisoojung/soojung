@@ -1,0 +1,31 @@
+package dao;
+
+import static db.JdbcUtil.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+
+import vo.BoardVO;
+
+//DAO(Data Access Object) : DBMS로 SQL 구문을 전송하는 클래스
+public class DogDAO {
+   private Connection con;
+   //singleton 패턴
+   
+   private static DogDAO instance;
+   
+   private DogDAO() {}
+   
+   public static DogDAO getInstance() {
+      if(instance == null) {
+         instance = new DogDAO();
+      }
+      return instance;
+   }
+   
+   public void setConnection(Connection con) {
+      this.con = con;
+      }
+   }

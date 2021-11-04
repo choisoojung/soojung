@@ -1,0 +1,12 @@
+package service;
+import static db.JdbcUtil.*;
+
+import vo.DogVO;
+public class DogViewService {
+
+	public DogVO getDog(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

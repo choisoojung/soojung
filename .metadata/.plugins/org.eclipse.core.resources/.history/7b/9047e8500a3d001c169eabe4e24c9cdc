@@ -1,0 +1,21 @@
+package service;
+import static db.JdbcUtil.*;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+
+import dao.BoardDAO;
+import vo.DogVO;
+public class DogListService {
+
+	public ArrayList<DogVO> getDogList() throws Exception{
+		// TODO Auto-generated method stub
+		Connection con = getConnection();
+	    BoardDAO boardDAO = BoardDAO.getInstance();
+	    boardDAO.setConnection(con);
+	    
+	    ArrayList<DogVO> dogList = 
+		return null;
+	}
+
+}
